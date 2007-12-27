@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2109
+
+This script adds syntax highlighting for BBCode, which is an abbreviation for Bulletin Board Code, the markup language used to format posts in many message boards. At the moment it highlights all tags and links defined by the URL-tag, but also the text between B-tags, I-tags, and U-tags (nesting is allowed), too.
+
+TODO: I intended to highlight the text between QUOTE-Tags, too, but found no solution yet which worked for nested quotes.
+
