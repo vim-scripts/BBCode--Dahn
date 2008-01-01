@@ -12,6 +12,7 @@ syn match bbcodeItem contained "\[/\s*[-a-zA-Z0-9]\+"hs=s+2 contains=@NoSpell
 syn match bbcodeItem contained "\[\s*\*\s*\]"hs=s+1,he=e-1 contains=@NoSpell
 syn match bbcodeArgument contained "\s[-a-zA-Z0-9]\+\s*="ms=s+1,me=e-1 contains=@NoSpell
 syn region bbcodeValue contained start="\"" end="\"" contains=@NoSpell
+syn region bbcodeValue contained start="'" end="'" contains=@NoSpell
 syn match bbcodeValue contained "=[\t ]*[^'" \t\]][^ \t\]]*"hs=s+1 contains=@NoSpell
 syn region bbcodeTag start="\[/\{0,1}" end="\]" contains=@NoSpell,bbcodeItem,bbcodeArgument,bbcodeValue
 
